@@ -1,0 +1,23 @@
+{
+  "name": "newman-reporter-csvsimple",
+  "version": "1.0.0",
+  "description": "Simple CSV Report - Akash D. Dilwale",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RemoSys Tech",
+    "Newman",
+    "newman csv",
+    "Newman csv simple reporter",
+    "newman report",
+    "Akash Dilwale"
+  ],
+  "author": "Akash Dilwale",
+  "license": "Akash Dilwale",
+  "dependencies": {
+    "newman": "*"
+  }
+}
+
