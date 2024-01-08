@@ -1,5 +1,5 @@
 <a href="https://www.postman.com/"><img src="https://assets.getpostman.com/common-share/postman-logo-horizontal-320x132.png" /></a><br />
-# Newman Reporter CSV
+# Newman Reporter CSV 
 
 Simple CSV Reporter Akash Dilwale
  
@@ -21,7 +21,8 @@ The outputted CSV file with the following Table:
 | 2         | Api_Excel_O/p_Prod | GoogleApi          | 7Response time is less than 200ms      | https://script.google.com/       | OK     | 200  | 2446         | Fail   | expected 2446 to be below 200       |
 
 
-##Install this package:
+
+## Install this package:
 
 ```console
 npm install newman-reporter-csvsimple
@@ -43,8 +44,8 @@ node_modules/.bin/newman run postman_collection.json -e postman_environment.json
 
 | CLI Option | Description |
 | ------ | ------ |
-| --reporter-csv-export <path> | Specify a path where the output CSV file will be written to disk. If not specified, the file will be written to `newman/` in the current working directory. |
-| --reporter-csv-includeBody | If you wish to save the response body for each request, use this option. |
+| --reporter-csvsimple-export <path> | Specify a path where the output CSV file will be written to disk. If not specified, the file will be written to `newman/` in the current working directory. |
+| --reporter-csvsimple-includeBody | If you wish to save the response body for each request, use this option. |
 
 ```console
 node_modules/.bin/newman run postman_collection.json -e postman_environment.json -r csvsimple --reporter-csv-includeBody
