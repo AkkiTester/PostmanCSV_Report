@@ -1,8 +1,8 @@
 <a href="https://www.postman.com/"><img src="https://assets.getpostman.com/common-share/postman-logo-horizontal-320x132.png" /></a><br />
 # Newman Reporter CSV
 
-Simple CSV Reporter
-
+Simple CSV Reporter Akash Dilwale
+ 
 ## About
 
 The outputted CSV file with the following Table:
