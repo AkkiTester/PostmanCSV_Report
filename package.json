@@ -22,7 +22,7 @@
   "author": "Akash Dilwale",
   "license": "Akash Dilwale",
   "dependencies": {
-    "newman": "*"
+    "newman": "<7.0.0"
   }
 }
 
