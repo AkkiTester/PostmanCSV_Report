@@ -59,5 +59,5 @@ node_modules/.bin/newman run postman_collection.json -e postman_environment.json
 | --reporter-csvsimple-includeBody | If you wish to save the response body for each request, use this option. |
 
 ```console
-node_modules/.bin/newman run postman_collection.json -e postman_environment.json -r csvsimple --reporter-csv-includeBody
+node_modules/.bin/newman run postman_collection.json -e postman_environment.json -r csvsimple --reporter-csvsimple-includeBody
 ```
