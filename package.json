@@ -1,6 +1,6 @@
 {
   "name": "newman-reporter-csvsimple",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple CSV Report - Akash D. Dilwale",
   "main": "index.js",
   "homepage": "https://github.com/AkkiTester/PostmanCSV_Report.git",
@@ -22,7 +22,7 @@
   "author": "Akash Dilwale",
   "license": "Akash Dilwale",
   "dependencies": {
-    "newman": "^^6.1.0"
+    "newman": "^6.1.0"
   }
 }
 
