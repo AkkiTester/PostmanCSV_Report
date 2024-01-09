@@ -33,6 +33,17 @@ npm install newman-reporter-csvsimple --force
 
 ```
 
+## For npm ERR! code ERESOLVE 
+```console
+npm install newman-reporter-csvsimple --legacy
+
+```
+OR
+```console
+npm install newman-reporter-csvsimple --legacy-peer-deps
+
+```
+
 ## Usage
 You can then use the `-r csvsimple` option to make Newman use the CSV Simple reporter.
 
